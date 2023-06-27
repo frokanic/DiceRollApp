@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorPrimary"/>  <!-- Replace with your desired button color -->
+
+    <!-- You can adjust the radius to define how sharp you want the corners to be -->
+    <corners android:radius="0dp"/>
+</shape>
