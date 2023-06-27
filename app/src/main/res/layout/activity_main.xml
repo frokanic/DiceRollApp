@@ -7,37 +7,37 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView_dice1"
+        android:id="@+id/iv_dice1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:src="@drawable/dice1"
-        app:layout_constraintBottom_toTopOf="@+id/button_roll"
-        app:layout_constraintEnd_toStartOf="@+id/imageView_dice2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_roll"
+        app:layout_constraintEnd_toStartOf="@+id/iv_dice2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 
     <ImageView
-        android:id="@+id/imageView_dice2"
+        android:id="@+id/iv_dice2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageView_dice1"
+        android:layout_below="@id/iv_dice1"
         android:layout_centerHorizontal="true"
         android:src="@drawable/dice1"
-        app:layout_constraintBottom_toTopOf="@+id/button_roll"
+        app:layout_constraintBottom_toTopOf="@+id/btn_roll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView_dice1"
+        app:layout_constraintStart_toEndOf="@+id/iv_dice1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
-        android:id="@+id/button_roll"
+        android:id="@+id/btn_roll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageView_dice2"
+        android:layout_below="@id/iv_dice2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"

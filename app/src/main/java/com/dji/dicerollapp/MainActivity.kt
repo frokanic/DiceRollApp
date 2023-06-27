@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
 
         viewModel = ViewModelProvider(this)[DiceRollViewModel::class.java]
 
-        binding.buttonRoll.setOnClickListener {
+        binding.btnRoll.setOnClickListener {
             viewModel.rollDice()
         }
 
         viewModel.diceRoll.observe(this) { rolls ->
-            binding.imageViewDice1.setImageResource(diceDrawable(rolls.first))
-            binding.imageViewDice2.setImageResource(diceDrawable(rolls.second))
+            binding.ivDice1.setImageResource(diceDrawable(rolls.first))
+            binding.ivDice2.setImageResource(diceDrawable(rolls.second))
         }
     }
 
